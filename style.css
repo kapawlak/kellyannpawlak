@@ -245,6 +245,13 @@ h2 {
 .t-item h3 { font-family: var(--serif); font-size: 24px; margin-bottom: 4px; }
 .t-item .role { color: var(--paper); font-weight: 600; margin-bottom: 8px; }
 .t-item p { color: var(--paper-dim); max-width: 44em; }
+.pubs { list-style: none; display: grid; gap: 1.1rem; }
+.pubs li { display: grid; grid-template-columns: 64px 1fr; gap: 1rem; align-items: baseline; }
+.pub-year { font-family: var(--mono); color: var(--amber); font-size: .95rem; }
+.pub-body { color: var(--paper-dim); font-size: 1.02rem; line-height: 1.55; }
+.pub-body strong { color: var(--paper); font-weight: 600; }
+.pub-body a { color: inherit; text-decoration: underline; text-decoration-color: var(--amber); text-underline-offset: 3px; }
+.pub-body a:hover { color: var(--amber); }
 
 /* prose page */
 .prose { max-width: 720px; }
