@@ -330,4 +330,5 @@ footer { padding: 48px 0 40px; border-top: 1px solid var(--line); margin-top: 40
   .nav-links.open { display: flex; }
   .nav-links a { padding: 12px 14px; }
   .section { padding: 52px 0; }
+  .video-feature video { width: min(280px, 82%); }
 }
