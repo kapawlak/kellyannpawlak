@@ -252,6 +252,8 @@ h2 {
 .pub-body strong { color: var(--paper); font-weight: 600; }
 .pub-body a { color: inherit; text-decoration: underline; text-decoration-color: var(--amber); text-underline-offset: 3px; }
 .pub-body a:hover { color: var(--amber); }
+.video-feature { display: flex; justify-content: center; }
+.video-feature video { width: min(440px, 100%); aspect-ratio: 9/16; border-radius: 20px; border: 1px solid rgba(233,196,106,.25); box-shadow: 0 30px 80px rgba(0,0,0,.45); background: #000; }
 
 /* prose page */
 .prose { max-width: 720px; }
